@@ -102,13 +102,8 @@ public class Whiteboard extends JPanel {
         g.setFont(new Font("Arial", Font.BOLD, 20));
         g.drawString(value, midX, midY);
 
-        if(fromNode.getId() > toNode.getId()){
-            Node change = fromNode;
-            fromNode = toNode;
-            toNode = change;
-        }
         fromNode.addEdge(new Edge(fromNode, toNode, intVal));
-        
+        toNode.addEdge(new Edge(toNode, fromNode, intVal));
     }
 
     public Node isInsideCircle(int x, int y) {
