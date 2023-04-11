@@ -11,8 +11,8 @@
   <h2>Installation</h2>
   <p>To install the app locally, follow these steps:</p>
   <ol>
-    <li>Download jar file to your local</li>
-    <li>Run <code>`java -jar myApp.jar`</code> to run the application.</li>
+    <li>Download DijkstraAlgo.jar file to your local</li>
+    <li>Run <code>`java -jar DijkstraAlgo.jar`</code> to run the application.</li>
   </ol>
   <h2>Usage</h2>
   <ol>
