@@ -12,6 +12,7 @@
   <p>To install the app locally, follow these steps:</p>
   <ol>
     <li>Download DijkstraAlgo.jar file to your local</li>
+    <li>Run <code>`java --version`</code> to check if Java is installed, if not, install <a href="https://www.oracle.com/uk/java/technologies/downloads/">Java</a></li>
     <li>Run <code>`java -jar DijkstraAlgo.jar`</code> to run the application.</li>
   </ol>
   <h2>Usage</h2>
