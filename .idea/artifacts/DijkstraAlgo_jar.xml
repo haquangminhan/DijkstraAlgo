@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DijkstraAlgo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DijkstraAlgo_jar</output-path>
+    <root id="archive" name="DijkstraAlgo.jar">
+      <element id="module-output" name="DijkstraAlgo" />
+    </root>
+  </artifact>
+</component>
